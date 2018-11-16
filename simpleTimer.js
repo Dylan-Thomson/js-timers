@@ -1,7 +1,7 @@
 var audio = new Audio("raven.mp3");
-setTimeout(fiveSeconds, 5000);
-setTimeout(tenSeconds, 10000);
-setTimeout(timeUp, 15000);
+setTimeout(fiveSeconds, 1000 * 5);
+setTimeout(tenSeconds, 1000 * 10);
+setTimeout(timeUp, 1000 * 15);
 
 function fiveSeconds() {
   $("#time-left").append("<h2>About 10 seconds left!</h2>");
